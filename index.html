@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Interview</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Ano nga ba tinanong sa akin ni Coach Ayee</h1>
+    <ol>
+      <li>About sa itsura ng aking resume</li>
+      <li>
+        About sa information ng aking resume pareho ba ito sa pagkadescription
+      </li>
+      <li>
+        Kapag nagtanong siya ng karagdagan information pa about sa'yo ibigay mo
+        lahat na nalalaman mo such as yung mga nagawa mo natutunan
+      </li>
+      <li>Ano yung strength at weakness mo</li>
+      <ul>
+        <li>
+          About sa weakness iwasan mo na ibibigay lang weakness dapat sinasabi
+          mo din kung paano mo nasusulosyunan
+        </li>
+        <li>
+          Halimbawa nahihirapan makisabay sa iba, dapat ka din ginagawa kung
+          paano mo ito sinusulusyonan gawa ng pagself-study
+        </li>
+      </ul>
+    </ol>
+    <h2>Mga dapat gawin sa Interview</h2>
+    <ol>
+      <li>
+        Magfirm ( Hindi ibig sabihin madidiin,para yung handshake parang wiling
+        ka talag sa posisyon ng trabaho nila) handshake pagkasimula ng interview
+      </li>
+      <li>Also dapat mayroon palagi eye contact sa nag-iinterview</li>
+      <li>Avoid using tagalog sa interview</li>
+      <li>
+        Iwasan din ang magisip ng matagal sa interview, kung magiisip ng
+        nakalimutan dapat hindi dapat ipakita
+      </li>
+      <li>
+        Maganda na maghalintulad ka ng magandang example na kahit ang isa tao na
+        hindi programmer ay maiintindihan pa rin
+      </li>
+      <li>Dapat din mga nakalagay sa resume mo ulam</li>
+    </ol>
+
+    <h2>Mga dapat tandaan:</h2>
+    <em>
+      <mark>
+        Wala sila pake kung alam mo gumamit ng mga framework or library o kahit
+        gaano pa karami ang alam mo programming langguage ang mahala ay alam mo
+        yung basic at simple logic</mark
+      ></em
+    >
+
+    <h3>Tapos ito naman yung pinagawa sa akin na sql query</h3>
+    <div class="table-container">
+      <h1 class="table-title">t_result</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>name</th>
+            <th>parent_id</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Home</td>
+            <td>Null</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Employee</td>
+            <td>Null</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Client</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Personel</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Finance</td>
+            <td>null</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Saving</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Account</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Loan</td>
+            <td>7</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+      <h3>Tapos ito yung gusto niya makuha ko na output</h3>
+      <div class="table-container">
+        <h1 class="table-title">t_result</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>result_name</th>
+              <th>header_parent</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>8</td>
+                <td>Loan</td>
+                <td>Account > Loan</td>
+              </tr>
+            <tr>
+              <td>3</td>
+              <td>Client</td>
+              <td>Employee > Client</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Personel</td>
+              <td>Employee > Client</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Account</td>
+                <td>Finance > Account</td>
+              </tr>
+            <tr>
+              <td>6</td>
+              <td>Saving</td>
+              <td>Finance > Saving</td>
+            </tr>
+          
+       
+          </tbody>
+        </table>
+      </div>
+<h1>Tapos dapat masulat mo query na yan sa papel hindi sa sql or oracle</h1>
+</html>
